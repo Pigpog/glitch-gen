@@ -1,0 +1,26 @@
+{
+  "name": "glitch-gen",
+  "version": "1.0.0",
+  "description": "Generates glitch images",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "jimp": "^0.2.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "glitch-gen"
+  },
+  "keywords": [
+    "glitch",
+    "image"
+  ],
+  "author": "Pigpog",
+  "license": "MIT"
+}
