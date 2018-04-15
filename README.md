@@ -14,8 +14,11 @@ The "corrupt-ness" strength of the image increases over with every new frame.
 glitch.increasing(path, outputName,increment,peakStrength)
 ```
 path: String : the path to the input file. Jpegs only.
+
 outputName: String: The file name of the output files.
+
 increment: Integer : the amount to increase the strength by each frame.
+
 peakStrength: Integer : Where to stop. WARNING: If it is too high, it can cause an infinite loop. Strength is relative to image resolution.
 
 ### Static
@@ -27,8 +30,11 @@ The "corrupt-ness" strength stays the same as it generates new frames.
 glitch.static(path,outputName,count,strength)
 ```
 path: String : the path to the input file. Jpegs only.
+
 outputName: String: The file name of the output files.
+
 count: Integer: The number of frames to generate.
+
 strength: How many bytes to remove. WARNING: If it is too high, it can cause an infinite loop. Strength is relative to image resolution.
 
 ### Installation
